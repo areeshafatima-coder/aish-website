@@ -1,0 +1,14 @@
+---
+description: Where to put markdown and how to organize docs
+globs: 
+alwaysApply: true
+---
+
+# Docs and markdown convention
+
+- **All project markdown (`.md`) must live under `docs/`.**
+- **Plans and design docs** → `docs/plan/` (e.g. migration plans, architecture, implementation order).
+- **“What’s been done” / completion summaries** → `docs/done/` (e.g. conversion done, feature done).
+- Use `docs/README.md` as the index for this structure.
+
+Do not leave standalone `.md` files (e.g. `NEXTJS_MIGRATION.md`) in the project root. Create or move them into `docs/plan/` or `docs/done/` as appropriate.

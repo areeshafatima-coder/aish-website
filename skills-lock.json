@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "skills": {
+    "Frontend Responsive Design Standards": {
+      "source": "am-will/codex-skills",
+      "sourceType": "github",
+      "computedHash": "7b16cf170e7701494d246e48cfb968ed8ef11cd3ce83c99ed6b914b1ca302e07"
+    },
+    "accessibility": {
+      "source": "addyosmani/web-quality-skills",
+      "sourceType": "github",
+      "computedHash": "a16b37abf64fe636f19f43b22aa1a09a4d5271e2d2972dfb9333f7bc7fa0355d"
+    },
+    "accessibility-a11y": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "computedHash": "3117d5b0302f4fbb90cf7b3b65474aa0ea70eadaf91036ab9e20c912d68f9289"
+    },
+    "ai-seo": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "cfe295b04a0705312cdc335fd6c994f13c553c479abbcd468f2658be8ea672f4"
+    },
+    "best-practices": {
+      "source": "addyosmani/web-quality-skills",
+      "sourceType": "github",
+      "computedHash": "98dafea60ec1a7f5f70f6febcdd4b4fa3fe15723ad9c0b991c0818615bff7ba6"
+    },
+    "e2e-testing-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "5b76a0209fee373a3cdf22d241fb6bf275e19fc69f92915e07c6448538a14e9d"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "computedHash": "6412eb4eb3b91595ebab937f0c69501240e7ba761b3d82510b5cf506ec5c7adc"
+    },
+    "fixing-motion-performance": {
+      "source": "ibelick/ui-skills",
+      "sourceType": "github",
+      "computedHash": "426dcf33f23419643f2aab71e2253e1a5b5684a808fabb8a4ad135e489ed7a0f"
+    },
+    "frontend-code-review": {
+      "source": "langgenius/dify",
+      "sourceType": "github",
+      "computedHash": "79fa87cd5460c80dc842153155b26bd4a3cad9858475c2e1ee50cab6dcd1fbbe"
+    },
+    "frontend-design": {
+      "source": "am-will/codex-skills",
+      "sourceType": "github",
+      "computedHash": "0792809c51bd57c9621ce64d7d4b7a99cb6ebc2f154bb303140d22b8eca34685"
+    },
+    "frontend-design-system": {
+      "source": "supercent-io/skills-template",
+      "sourceType": "github",
+      "computedHash": "5c20c46162ec89c01473e55f66d9b79f5c8f0ec38d8b3d5386a0c47634ff239e"
+    },
+    "javascript-testing-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "34219092e71607f9257720b3b43ecd37c8af0d3dbf695e3263f4c68ab0b019e2"
+    },
+    "nextjs-app-router-fundamentals": {
+      "source": "wsimmonds/claude-nextjs-skills",
+      "sourceType": "github",
+      "computedHash": "2d73efbbc227187a78d547d80e7e778d179048d592530dc9f69c8307eee6ae76"
+    },
+    "nextjs-app-router-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "59fb01d2fad75636fbf99b505b7212490cc0e2a79a99bbf103a255c8e18904f1"
+    },
+    "nextjs-best-practices": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "computedHash": "8f5b6b588c638139854181f80a241c16575810a3bd45b0983e55078b6aed347a"
+    },
+    "nextjs-react-typescript": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "computedHash": "eb995cc826bf48498e0e90969fc7dadfa2ec634002c26cfcfde565134cefa738"
+    },
+    "penpot-uiux-design": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "computedHash": "cd29e08bb7d2d4b9212582bcd9b70823619fbc6397078b8ba853962054ba4230"
+    },
+    "performance": {
+      "source": "addyosmani/web-quality-skills",
+      "sourceType": "github",
+      "computedHash": "acbafe2fcbfc3a1a67db47c2f6299d5c0e16f543c4e683e38e74a8ccb54888fb"
+    },
+    "performance-optimization": {
+      "source": "supercent-io/skills-template",
+      "sourceType": "github",
+      "computedHash": "4a5dfe5033c4138c85e518b2f4ae654c613733ca729e774f8f5d00dbb0e2de76"
+    },
+    "programmatic-seo": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "8eed8401fa4980cc67ac308bc9d09e21bb312848f03990ab73dafe7265590c61"
+    },
+    "seo-audit": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "27156d103697411bba81520fef469e77bfba4c65d904c841e4965a158d531fbd"
+    },
+    "seo-content-brief": {
+      "source": "inference-sh-9/skills",
+      "sourceType": "github",
+      "computedHash": "d9af4c9444dfb618d7158a1d624f4b708ecfda696067f7f10d299f98abe4134c"
+    },
+    "seo-geo": {
+      "source": "resciencelab/opc-skills",
+      "sourceType": "github",
+      "computedHash": "56f90ba46b36563bb5461feb8462aed9283e74dfc4cdac2a98c42c4bc86a95be"
+    },
+    "tailwind-css-patterns": {
+      "source": "giuseppe-trisciuoglio/developer-kit",
+      "sourceType": "github",
+      "computedHash": "a9d14dbb31901e53f37a33cf4d7495da95c66781dc67fe62b3e70a944bd050e0"
+    },
+    "tailwindcss-advanced-layouts": {
+      "source": "josiahsiegel/claude-plugin-marketplace",
+      "sourceType": "github",
+      "computedHash": "fa08c5757b8f24df2d412543d370bc25d8c14eadeb27be4112b2354323f5889f"
+    },
+    "tailwindcss-mobile-first": {
+      "source": "josiahsiegel/claude-plugin-marketplace",
+      "sourceType": "github",
+      "computedHash": "9caf8e2089086a5f67150065921e3137ef4e010565e21f0d179a45650b0c126d"
+    },
+    "typescript-react-reviewer": {
+      "source": "dotneet/claude-code-marketplace",
+      "sourceType": "github",
+      "computedHash": "7f86cd28e11d2b4b120b635d18814b82cd655a2b9d9ba8a105b3ee06c478cf38"
+    },
+    "ui-ux-pro-max": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "computedHash": "d8e1cbc119ea771b4f537a92f8b67eba51a2becdb4de0c7a0e265d101986372e"
+    },
+    "vercel-composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "f98931159fa9c7fed043bcd18a891a46dcf89ababa38df13a4c5b7b30dc0ce07"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "4365be772fd3b41994a72ad478472c6d680678e7f3859860ab010e9c46e48ee0"
+    },
+    "vercel-react-native-skills": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "2e9088a7333666d8c2833b8ff58bd51b955501c42b4c7244f72b4cbf22dafcc4"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "a6a44d5498f7e8f68289902f3dedfc6f38ae0cee1e96527c80724cf27f727c2a"
+    },
+    "webapp-testing": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "computedHash": "cf8e5916d474886bd67b09691247f43f331523008b7d366064bc607ab42d6302"
+    }
+  }
+}
