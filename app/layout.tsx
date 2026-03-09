@@ -30,34 +30,46 @@ export const metadata: Metadata = {
   description:
     "Shop luxury Pakistani Eid dresses 2026 — handcrafted lehengas, gharara suits & festive wear. Designed in the UK. Free shipping over £300 / $300. Order now for Eid.",
   keywords: [
-    "eid dresses uk 2026",
+    // Google Trends BREAKOUT terms (5000%+ growth right now)
     "eid dresses uk",
+    "eid dress uk",
+    "pakistani dresses uk",
+    "pakistani dresses online uk",
+    "ethnic wear uk",
+    "ethnic dresses uk",
+    "girls eid dress uk",
+    "girls pakistani dresses",
+    // High-rising terms (+400%, +110%)
+    "readymade lehenga uk",
+    "ready made lehenga uk",
+    "lengha uk",
+    // Core Eid keywords
+    "eid dresses uk 2026",
     "pakistani eid dresses uk",
     "eid outfits uk 2026",
     "eid collection 2026 uk",
     "eid clothes online uk",
     "eid lehenga uk",
     "pakistani eid outfits uk",
+    // Style-specific (trending searches)
     "anarkali suit uk",
     "sharara suit uk",
     "gharara suit uk",
     "salwar kameez uk eid",
+    // Occasion keywords
+    "walima dress uk",
+    "mehndi outfit uk",
+    "eid party outfit uk",
+    // Brand positioning
     "luxury pakistani fashion uk",
     "pakistani bridal lehenga uk",
     "handcrafted pakistani dresses uk",
-    "festive pakistani wear uk",
-    "eid outfit uk",
-    "eid party outfit uk",
-    "walima dress uk",
-    "pakistani fashion uk",
+    "made to order eid dress uk",
+    "custom eid dress uk",
+    // US market
     "pakistani eid dresses usa",
     "eid dresses usa 2026",
-    "made to order pakistani dress uk",
-    "custom eid dress uk",
-    "modest eid dress uk",
-    "chiffon eid dress uk",
-    "velvet eid dress uk",
-    "embroidered pakistani dress uk",
+    "pakistani dresses online",
   ],
   openGraph: {
     title: "Aish | Pakistani Eid Dresses UK & US — Luxury Lehengas & Festive Wear 2026",

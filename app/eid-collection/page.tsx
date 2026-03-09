@@ -10,28 +10,39 @@ export const metadata = {
   description:
     "Shop Pakistani Eid dresses 2026 — luxury handcrafted lehengas, gharara suits & embroidered festive wear. Designed in UK. Free shipping over £300. Order now for Eid.",
   keywords: [
+    // Google Trends BREAKOUT right now
+    "eid dresses uk",
+    "eid dress uk",
+    "pakistani dresses uk",
+    "pakistani dresses online uk",
+    "ethnic wear uk",
+    "ethnic dresses uk",
+    "girls eid dress uk",
+    // High-rising (+400%, +110%)
+    "readymade lehenga uk",
+    "ready made lehenga uk",
+    "lengha uk",
+    // Core Eid
     "eid dresses uk 2026",
     "pakistani eid dresses uk",
     "eid outfits uk 2026",
     "eid collection 2026 uk",
     "eid lehenga uk",
+    // Style-specific
     "anarkali suit uk eid",
-    "sharara suit uk eid",
+    "sharara suit uk",
     "gharara suit uk",
     "eid clothes online uk",
-    "pakistani eid outfits uk",
-    "eid dresses usa 2026",
-    "pakistani eid dresses usa",
-    "luxury eid dresses uk",
-    "handcrafted eid dresses uk",
-    "eid outfit ideas 2026",
-    "sage green eid dress uk",
-    "pastel eid dress uk",
-    "chiffon eid dress uk",
-    "velvet eid dress uk",
+    // Occasion
     "eid party outfit uk",
     "walima dress uk",
     "mehndi outfit uk",
+    // US
+    "eid dresses usa 2026",
+    "pakistani eid dresses usa",
+    // Long tail
+    "luxury eid dresses uk",
+    "handcrafted eid dresses uk",
     "made to order eid dress uk",
     "pakistani eid clothes uk",
   ],
@@ -93,6 +104,11 @@ const eidFaqItems = [
     question: "Does Aish make anarkali suits, sharara sets and gharara for Eid?",
     answer:
       "Yes. Aish creates luxury anarkali suits, sharara sets, gharara and lehengas — all handcrafted with premium embroidery. Each piece is made to order with custom sizing. Contact via WhatsApp on +44 7500 547532 to order your Eid 2026 outfit.",
+  },
+  {
+    question: "Where can I buy ethnic wear and readymade lehengas in the UK?",
+    answer:
+      "Aish offers luxury ethnic wear and readymade lehengas in the UK — also known as lengha — for Eid 2026. Our ready-to-order pieces include embroidered lehengas, anarkali suits, sharara sets and festive Pakistani dresses online. Made to order with custom sizing and delivered across the UK.",
   },
   {
     question: "Does Aish offer walima, mehndi and Eid party outfits?",
