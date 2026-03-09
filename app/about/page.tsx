@@ -5,10 +5,13 @@ import { collections } from "@/lib/data";
 
 const ASSETS = "/assets";
 
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aishofficial.shop";
+
 export const metadata: Metadata = {
-  title: "About Aish",
+  title: "About Aish — Luxury Pakistani Fashion Brand UK | Our Story",
   description:
-    "Aish — luxury handcrafted Pakistani fashion. Designed in the UK. Festive wear, bridal & occasion wear for UK & US.",
+    "Aish is a UK-based luxury Pakistani fashion brand creating handcrafted Eid dresses, lehengas, festive wear and bridal couture. Made to order with premium fabrics. Serving UK & US.",
+  alternates: { canonical: `${baseUrl}/about` },
 };
 
 export default function AboutPage() {
@@ -20,20 +23,28 @@ export default function AboutPage() {
             <span className="section-tag">Our Story</span>
             <h1>About Aish</h1>
             <p className="about-hero__lead">
-              Aish is luxury handcrafted Pakistani fashion — designed in the UK
-              and made for those who love timeless craftsmanship and modern
-              elegance.
+              Aish is a luxury handcrafted Pakistani fashion brand — designed in
+              the UK and made for those who love timeless craftsmanship and
+              modern elegance.
             </p>
             <p>
-              We create festive wear, bridal and occasion pieces that blend
-              traditional embroidery and premium fabrics with silhouettes you
-              can wear with confidence. Every piece is made to order, so you get
-              a perfect fit and a one-of-a-kind look.
+              We specialise in Pakistani Eid dresses, festive lehengas, bridal
+              couture and occasion wear — all made to order with premium fabrics
+              including net, chiffon, organza, velvet and raw silk. Every piece
+              features hand-applied embellishments: zardozi, resham threadwork,
+              sequins and beadwork crafted by skilled artisans.
             </p>
             <p>
-              We serve the UK and US with free shipping over £300 / $300, and
-              we&apos;re here to help with custom orders and styling — just
-              reach out via WhatsApp or our contact page.
+              Our collections range from Luxury Pret festive pieces starting at
+              £265, to heavily embroidered lehengas at £265–£640, to full
+              bridal couture from £1,450. We serve the UK and US with free
+              shipping on orders over £300 / $300, and offer custom sizing and
+              bespoke orders via WhatsApp.
+            </p>
+            <p>
+              Whether you&apos;re dressing for Eid, a walima, baraat or a
+              milestone celebration, Aish creates pieces that are uniquely
+              yours.
             </p>
             <Link href="/contact" className="btn btn-primary">
               Get in touch

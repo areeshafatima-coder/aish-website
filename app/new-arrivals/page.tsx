@@ -4,8 +4,16 @@ import ProductCard from "@/components/product/ProductCard";
 import TrustStrip from "@/components/home/TrustStrip";
 
 export const metadata = {
-  title: "New Arrivals",
-  description: "Latest luxury Pakistani fashion — luxury pret, festive and formal wear. UK & US delivery.",
+  title: "New Pakistani Dresses 2026 — Eid Collection, Lehengas & Festive Wear",
+  description:
+    "Shop new Pakistani dresses for Eid 2026 — luxury lehengas, embroidered ensembles & festive wear. Handcrafted in UK. Free shipping over £300 / $300.",
+  keywords: [
+    "new pakistani dresses 2026",
+    "eid dresses uk",
+    "pakistani lehenga uk",
+    "eid outfits uk 2026",
+    "festive pakistani wear",
+  ],
 };
 
 export default function NewArrivalsPage() {

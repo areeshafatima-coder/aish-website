@@ -790,3 +790,56 @@ button {
 .footer-bottom { padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; }
 .footer-bottom p { margin: 0; font-size: 11px; letter-spacing: 0.04em; color: rgba(247, 239, 228, 0.5); }
 @media (min-width: 700px) { .footer-grid { grid-template-columns: 1.5fr 1fr 1fr 1fr; } }
+
+/* ===== FAQ Section — AEO ===== */
+.section-faq { background: var(--color-cream); }
+.faq-list { max-width: 760px; margin: 0 auto; }
+.faq-item {
+  border-top: 1px solid var(--color-border);
+}
+.faq-item:last-child { border-bottom: 1px solid var(--color-border); }
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 0;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--color-text);
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+.faq-question::-webkit-details-marker { display: none; }
+.faq-question::after {
+  content: '+';
+  font-size: 1.35rem;
+  font-weight: 300;
+  color: var(--color-gold);
+  flex-shrink: 0;
+  transition: transform var(--transition);
+}
+.faq-item[open] .faq-question::after { content: '−'; }
+.faq-answer {
+  margin: 0 0 1.25rem;
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  font-size: 0.95rem;
+  max-width: 680px;
+}
+
+/* ===== Eid Collection Page ===== */
+.eid-hero-ctas { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
+.eid-intro { max-width: 760px; margin: 0 auto; text-align: center; }
+.eid-intro h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 500;
+  margin: 0 0 1.25rem;
+  color: var(--color-text);
+}
+.eid-intro p { color: var(--color-text-muted); line-height: 1.75; margin: 0 0 1rem; }
+.eid-intro a { color: var(--color-gold); text-decoration: underline; text-underline-offset: 3px; }
+.eid-about-section { background: var(--color-bg-alt); padding: 3.5rem 0; }

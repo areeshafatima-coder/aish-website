@@ -1,67 +1,81 @@
-# Deploy Aish – 3 things to do (no crashing)
+# Deploy Aish — do these 4 steps (no coding)
 
-Do these in order. Your domain: **aishofficial.shop**
+Use your domain: **aishofficial.shop**. Do each step in order.
 
 ---
 
-## 1. GitHub – create repo and push code
+## STEP 1 — GitHub (2 min)
 
-**A.** Open this link (creates a new repo for you):  
-**https://github.com/new?name=aish-website**
+1. Open: **https://github.com/new**
+2. **Repository name:** `aish-website`
+3. Leave **Public**. Do **not** tick "Add a README".
+4. Click **Create repository**.
+5. **Leave that page open** — you need the repo URL. It looks like:  
+   `https://github.com/YOUR_USERNAME/aish-website`  
+   Copy it.
 
-- Leave **Public**.
-- Do **not** tick "Add a README".
-- Click **Create repository**.
+---
 
-**B.** Copy your new repo URL. It will look like:  
-`https://github.com/YOUR_USERNAME/aish-website`  
-(Replace YOUR_USERNAME with your GitHub username.)
+## STEP 2 — Push your code (1 min)
 
-**C.** Open **Terminal** (Mac) or **Command Prompt** (Windows), then run these lines **one by one**. When it asks for the repo URL, use the URL from step B.
+1. Open **Terminal** (Mac: Spotlight → type "Terminal" → Enter).
+2. Paste and run these **one block at a time** (replace `YOUR_USERNAME` with your GitHub username from the URL above):
 
 ```bash
 cd "/Users/areesha/Desktop/website aish"
+```
+
+```bash
 git init
 git add .
-git commit -m "Aish website - initial deploy"
+git commit -m "Aish website"
 git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/aish-website.git
 git push -u origin main
 ```
 
-Replace `YOUR_USERNAME` with your real GitHub username in the `git remote add` line.  
-If it asks for login, use your GitHub email + password (or a Personal Access Token if you use 2FA).
+3. If it asks for login: use your **GitHub username** and a **Personal Access Token** (not your password).  
+   To create a token: GitHub → Settings → Developer settings → Personal access tokens → Generate new token. Tick `repo`. Copy the token and paste it when Terminal asks for password.
 
 ---
 
-## 2. Vercel – deploy and add domain
+## STEP 3 — Vercel (2 min)
 
-**A.** Go to **https://vercel.com** and log in with **GitHub**.
-
-**B.** Click **Add New…** → **Project**. Click **Import** next to **aish-website**. Click **Deploy**. Wait until you get a green tick and a URL like `aish-website-xxx.vercel.app`.
-
-**C.** In the project: **Settings** → **Domains** → add **aishofficial.shop** → Add.  
-Note the values Vercel shows (A record = `76.76.21.21`, CNAME for www = `cname.vercel-dns.com`).
-
-**D.** **Settings** → **Environment Variables** → add:
-- Name: `NEXT_PUBLIC_SITE_URL`
-- Value: `https://aishofficial.shop`  
-Save, then **Deployments** → … on latest → **Redeploy**.
-
----
-
-## 3. Namecheap – point domain to Vercel
-
-**A.** Go to **https://www.namecheap.com** → **Domain List** → **Manage** next to aishofficial.shop.
-
-**B.** Open **Advanced DNS**.
-
-**C.** Add or edit:
-- **A Record** – Host: `@`, Value: `76.76.21.21`, TTL: Automatic.
-- **CNAME Record** – Host: `www`, Value: `cname.vercel-dns.com`, TTL: Automatic.
-
-Save. Wait 5–60 minutes. In Vercel → Domains, your domain should show **Valid**.
+1. Open: **https://vercel.com**
+2. Click **Sign Up** or **Log In** → **Continue with GitHub**.
+3. Click **Add New…** → **Project**.
+4. Click **Import** next to **aish-website**.
+5. Click **Deploy**. Wait 1–2 minutes.
+6. When done, click **Settings** → **Domains** → type: **aishofficial.shop** → **Add**.
+7. Vercel will show you:
+   - **A record:** `76.76.21.21`
+   - **CNAME for www:** `cname.vercel-dns.com`  
+   Keep this page open for Step 4.
 
 ---
 
-Done. Your site will be live at **https://aishofficial.shop**.
+## STEP 4 — Namecheap DNS (2 min)
+
+1. Open: **https://www.namecheap.com** → log in → **Domain List** → **Manage** next to aishofficial.shop.
+2. Open the **Advanced DNS** tab.
+3. Add or edit:
+   - **A Record** — Host: `@` — Value: `76.76.21.21` — TTL: Automatic
+   - **CNAME Record** — Host: `www` — Value: `cname.vercel-dns.com` — TTL: Automatic
+4. Remove any other A or CNAME for `@` or `www` that point somewhere else.
+5. Save.
+
+---
+
+## STEP 5 — Set site URL on Vercel (1 min)
+
+1. Back in Vercel → your project → **Settings** → **Environment Variables**.
+2. **Name:** `NEXT_PUBLIC_SITE_URL`  
+   **Value:** `https://aishofficial.shop`  
+   Click **Save**.
+3. Go to **Deployments** → click **⋯** on the latest one → **Redeploy**.
+
+---
+
+Done. In 5–60 minutes your site will be live at **https://aishofficial.shop**.
+
+If any step fails, send a screenshot of the screen where you’re stuck and say which step number — I’ll tell you exactly what to click or type.
