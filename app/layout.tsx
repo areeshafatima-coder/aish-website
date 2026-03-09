@@ -72,6 +72,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: baseUrl,
   },
+  verification: {
+    google: "A6igzHLtKSpohTTNmmRMpHCfH0tcnZWOg1hAyYPhB-s",
+  },
 };
 
 const organizationLd = {
