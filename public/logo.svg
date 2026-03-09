@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" fill="none">
+  <!-- Gold floral left -->
+  <g fill="#c9a84c" opacity="0.95">
+    <!-- Left stem -->
+    <path d="M72 85 Q68 70 72 55 Q74 48 76 52 Q74 65 76 80Z" />
+    <path d="M72 70 Q62 65 58 58 Q60 55 63 57 Q67 63 72 68Z" />
+    <path d="M72 62 Q65 52 66 44 Q69 43 70 46 Q70 53 73 60Z" />
+    <!-- Left flower 1 -->
+    <ellipse cx="58" cy="55" rx="5" ry="8" transform="rotate(-30 58 55)" />
+    <ellipse cx="52" cy="58" rx="5" ry="8" transform="rotate(20 52 58)" />
+    <ellipse cx="55" cy="64" rx="5" ry="8" transform="rotate(70 55 64)" />
+    <ellipse cx="62" cy="63" rx="5" ry="8" transform="rotate(120 62 63)" />
+    <ellipse cx="64" cy="56" rx="5" ry="8" transform="rotate(-70 64 56)" />
+    <circle cx="58" cy="59" r="5" fill="#b8922e" />
+    <circle cx="58" cy="59" r="3" fill="#c9a84c" />
+    <!-- Left flower 2 smaller -->
+    <ellipse cx="68" cy="44" rx="4" ry="6" transform="rotate(-20 68 44)" />
+    <ellipse cx="63" cy="46" rx="4" ry="6" transform="rotate(30 63 46)" />
+    <ellipse cx="64" cy="51" rx="4" ry="6" transform="rotate(80 64 51)" />
+    <ellipse cx="70" cy="50" rx="4" ry="6" transform="rotate(-80 70 50)" />
+    <circle cx="66" cy="47" r="4" fill="#b8922e" />
+    <circle cx="66" cy="47" r="2.5" fill="#c9a84c" />
+    <!-- Left leaf -->
+    <path d="M62 68 Q55 72 53 80 Q58 78 62 72Z" />
+    <path d="M67 75 Q60 78 59 86 Q64 82 67 76Z" />
+  </g>
+
+  <!-- AISH text -->
+  <text
+    x="200"
+    y="82"
+    font-family="Georgia, 'Palatino Linotype', 'Book Antiqua', Palatino, serif"
+    font-size="68"
+    font-weight="400"
+    fill="#c9a84c"
+    text-anchor="middle"
+    letter-spacing="10"
+  >AISH</text>
+
+  <!-- Gold floral right -->
+  <g fill="#c9a84c" opacity="0.95">
+    <!-- Right stem -->
+    <path d="M328 85 Q332 70 328 55 Q326 48 324 52 Q326 65 324 80Z" />
+    <path d="M328 70 Q338 65 342 58 Q340 55 337 57 Q333 63 328 68Z" />
+    <path d="M328 62 Q335 52 334 44 Q331 43 330 46 Q330 53 327 60Z" />
+    <!-- Right flower 1 -->
+    <ellipse cx="342" cy="55" rx="5" ry="8" transform="rotate(30 342 55)" />
+    <ellipse cx="348" cy="58" rx="5" ry="8" transform="rotate(-20 348 58)" />
+    <ellipse cx="345" cy="64" rx="5" ry="8" transform="rotate(-70 345 64)" />
+    <ellipse cx="338" cy="63" rx="5" ry="8" transform="rotate(-120 338 63)" />
+    <ellipse cx="336" cy="56" rx="5" ry="8" transform="rotate(70 336 56)" />
+    <circle cx="342" cy="59" r="5" fill="#b8922e" />
+    <circle cx="342" cy="59" r="3" fill="#c9a84c" />
+    <!-- Right flower 2 smaller -->
+    <ellipse cx="332" cy="44" rx="4" ry="6" transform="rotate(20 332 44)" />
+    <ellipse cx="337" cy="46" rx="4" ry="6" transform="rotate(-30 337 46)" />
+    <ellipse cx="336" cy="51" rx="4" ry="6" transform="rotate(-80 336 51)" />
+    <ellipse cx="330" cy="50" rx="4" ry="6" transform="rotate(80 330 50)" />
+    <circle cx="334" cy="47" r="4" fill="#b8922e" />
+    <circle cx="334" cy="47" r="2.5" fill="#c9a84c" />
+    <!-- Right leaf -->
+    <path d="M338 68 Q345 72 347 80 Q342 78 338 72Z" />
+    <path d="M333 75 Q340 78 341 86 Q336 82 333 76Z" />
+  </g>
+</svg>

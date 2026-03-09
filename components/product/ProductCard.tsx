@@ -13,7 +13,6 @@ export default function ProductCard({ product }: { product: Product }) {
           height={533}
           loading="lazy"
           quality={95}
-          unoptimized={product.image.startsWith("/assets/")}
           sizes="(max-width: 700px) 50vw, 25vw"
         />
         {product.badge && <span className="product-badge">{product.badge}</span>}

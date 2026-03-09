@@ -73,7 +73,7 @@ export default function AboutPage() {
           </div>
           <div className="about-hero__media">
             <Image
-              src={`${ASSETS}/banner-about-duo-studio.png`}
+              src={`${ASSETS}/banner-about-duo-studio.webp`}
               alt="Aish luxury Pakistani fashion"
               fill
               className="about-hero__image"

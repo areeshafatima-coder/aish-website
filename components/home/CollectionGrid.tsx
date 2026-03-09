@@ -17,7 +17,6 @@ export default function CollectionGrid({ collections }: { collections: Collectio
               alt=""
               fill
               quality={95}
-              unoptimized={col.image.startsWith("/assets/")}
               sizes="(max-width: 699px) 50vw, (max-width: 1023px) 33vw, 25vw"
               className="collection-card__image"
             />

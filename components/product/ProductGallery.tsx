@@ -22,7 +22,6 @@ export default function ProductGallery({ images, title, badge }: ProductGalleryP
           width={800}
           height={1067}
           quality={95}
-          unoptimized={images[activeIndex]?.startsWith("/assets/")}
           sizes="(max-width: 768px) 90vw, 50vw"
         />
         {badge && <span className="product-badge">{badge}</span>}
@@ -36,8 +35,7 @@ export default function ProductGallery({ images, title, badge }: ProductGalleryP
             aria-label={`View image ${i + 1}`}
             onClick={() => setActiveIndex(i)}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={src} alt="" />
+            <Image src={src} alt="" width={120} height={160} quality={75} sizes="120px" />
           </button>
         ))}
       </div>

@@ -290,7 +290,7 @@ button {
 }
 .hero-slide__image {
   object-fit: cover;
-  object-position: 78% center;
+  object-position: center center;
 }
 .hero-slide::after {
   content: '';
@@ -316,18 +316,18 @@ button {
 }
 .hero--banner .hero-slide__image {
   object-fit: cover;
-  object-position: 85% center;
+  object-position: center center;
 }
 @media (min-width: 480px) {
-  .hero--banner .hero-slide__image { object-position: 82% center; }
+  .hero--banner .hero-slide__image { object-position: center center; }
   .hero--banner { min-height: 85vh; }
 }
 @media (min-width: 768px) {
-  .hero--banner .hero-slide__image { object-position: 78% center; }
+  .hero--banner .hero-slide__image { object-position: 65% center; }
   .hero--banner { min-height: 88vh; }
 }
 @media (min-width: 1024px) {
-  .hero--banner .hero-slide__image { object-position: right center; }
+  .hero--banner .hero-slide__image { object-position: 60% center; }
   .hero--banner { min-height: 90vh; }
 }
 .hero-content--left {

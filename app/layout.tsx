@@ -98,6 +98,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: baseUrl,
   },
+  icons: {
+    icon: [
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: { url: "/icon.png", sizes: "512x512" },
+    shortcut: "/icon.png",
+  },
   verification: {
     google: "A6igzHLtKSpohTTNmmRMpHCfH0tcnZWOg1hAyYPhB-s",
   },
