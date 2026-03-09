@@ -9,9 +9,9 @@ import Newsletter from "@/components/home/Newsletter";
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aishofficial.shop";
 
 export const metadata = {
-  title: "Pakistani Eid Dresses UK 2026 — Lehengas, Anarkalis, Shararas & Festive Wear | Aish",
+  title: "Aish — Bespoke Pakistani Bridal & Eid Dresses UK | Lehengas, Walima & Occasion Wear",
   description:
-    "Shop luxury Pakistani Eid dresses 2026 — handcrafted lehengas, anarkali suits, sharara sets & gharara. Designed in the UK. Free shipping over £300 / $300.",
+    "Aish creates bespoke Pakistani dresses made specifically for you — bridal lehengas, walima dresses, Eid outfits, mehndi & occasion wear. Every piece handcrafted to your measurements. UK & US.",
   keywords: [
     "eid dresses uk",
     "eid dress uk",
@@ -87,9 +87,19 @@ const faqItems = [
       "Aish Eid dresses are crafted in premium fabrics including chiffon, organza, velvet, net and raw silk — ideal for both UK spring weather and indoor celebrations. All embellishments including zardozi, resham, sequins and mirror work are hand-applied by skilled artisans.",
   },
   {
-    question: "Does Aish deliver Pakistani Eid dresses to London, Birmingham and Manchester?",
+    question: "Does Aish make bespoke bridal lehengas for nikkah, walima and rukhsati?",
     answer:
-      "Yes. Aish delivers luxury Pakistani Eid dresses across the UK including London, Birmingham, Manchester, Leeds, Bradford, Luton, Slough and all other cities. Free UK shipping on orders over £300.",
+      "Yes. Aish specialises in bespoke Pakistani bridal lehengas for nikkah, walima, rukhsati and reception. Every bridal piece is made specifically for you — your measurements, your colours, your embroidery preferences. Bridal couture starts from £1,450. Contact us via WhatsApp on +44 7500 547532 to begin your bridal consultation.",
+  },
+  {
+    question: "Can I order a Pakistani dress for a wedding — mehndi, baraat or walima?",
+    answer:
+      "Yes. Aish creates bespoke Pakistani dresses for all wedding occasions — mehndi outfits, baraat dresses, walima looks, reception wear and formal occasion pieces. Every dress is made to your measurements and designed around your specific event. WhatsApp us on +44 7500 547532 to discuss your requirements.",
+  },
+  {
+    question: "Does Aish deliver Pakistani dresses to London, Birmingham and Manchester?",
+    answer:
+      "Yes. Aish delivers bespoke Pakistani dresses across the UK — London, Birmingham, Manchester, Leeds, Bradford, Luton, Slough and all cities. Free UK shipping on orders over £300. US delivery also available, free on orders over $300.",
   },
 ];
 

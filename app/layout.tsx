@@ -24,52 +24,50 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aishofficial.shop";
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Aish | Pakistani Eid Dresses UK & US — Luxury Lehengas & Festive Wear 2026",
+    default: "Aish | Bespoke Pakistani Bridal & Occasion Wear UK — Lehengas, Eid & Wedding Dresses",
     template: "%s | Aish",
   },
   description:
-    "Shop luxury Pakistani Eid dresses 2026 — handcrafted lehengas, gharara suits & festive wear. Designed in the UK. Free shipping over £300 / $300. Order now for Eid.",
+    "Aish — luxury bespoke Pakistani dresses made to order. Bridal lehengas, walima dresses, Eid outfits & wedding occasion wear. Every piece made specifically for you. UK & US.",
   keywords: [
-    // Google Trends BREAKOUT terms (5000%+ growth right now)
+    // Google Trends BREAKOUT terms
     "eid dresses uk",
-    "eid dress uk",
     "pakistani dresses uk",
-    "pakistani dresses online uk",
     "ethnic wear uk",
-    "ethnic dresses uk",
     "girls eid dress uk",
-    "girls pakistani dresses",
-    // High-rising terms (+400%, +110%)
     "readymade lehenga uk",
-    "ready made lehenga uk",
     "lengha uk",
-    // Core Eid keywords
+    // Bridal & wedding (year-round market)
+    "pakistani bridal lehenga uk",
+    "bespoke bridal lehenga uk",
+    "nikkah dress uk",
+    "walima dress uk",
+    "rukhsati dress uk",
+    "pakistani wedding dress uk",
+    "mehndi outfit uk",
+    "baraat dress uk",
+    "wedding guest pakistani dress uk",
+    // Premium / bespoke positioning
+    "bespoke pakistani dress uk",
+    "custom made pakistani dress uk",
+    "designer pakistani dress uk",
+    "made to order pakistani dress uk",
+    "luxury pakistani occasion wear uk",
+    // Eid keywords
     "eid dresses uk 2026",
     "pakistani eid dresses uk",
-    "eid outfits uk 2026",
-    "eid collection 2026 uk",
-    "eid clothes online uk",
     "eid lehenga uk",
-    "pakistani eid outfits uk",
-    // Style-specific (trending searches)
+    "eid outfits uk 2026",
+    // Style keywords
     "anarkali suit uk",
     "sharara suit uk",
     "gharara suit uk",
-    "salwar kameez uk eid",
-    // Occasion keywords
-    "walima dress uk",
-    "mehndi outfit uk",
-    "eid party outfit uk",
-    // Brand positioning
-    "luxury pakistani fashion uk",
-    "pakistani bridal lehenga uk",
-    "handcrafted pakistani dresses uk",
-    "made to order eid dress uk",
-    "custom eid dress uk",
+    "lehenga uk",
     // US market
-    "pakistani eid dresses usa",
-    "eid dresses usa 2026",
-    "pakistani dresses online",
+    "pakistani bridal dress usa",
+    "pakistani wedding dress usa",
+    "eid dresses usa",
+    "bespoke pakistani dress usa",
   ],
   openGraph: {
     title: "Aish | Pakistani Eid Dresses UK & US — Luxury Lehengas & Festive Wear 2026",
