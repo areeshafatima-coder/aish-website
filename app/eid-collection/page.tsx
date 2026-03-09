@@ -11,14 +11,28 @@ export const metadata = {
     "Shop Pakistani Eid dresses 2026 — luxury handcrafted lehengas, gharara suits & embroidered festive wear. Designed in UK. Free shipping over £300. Order now for Eid.",
   keywords: [
     "eid dresses uk 2026",
-    "pakistani eid outfits uk",
+    "pakistani eid dresses uk",
+    "eid outfits uk 2026",
+    "eid collection 2026 uk",
     "eid lehenga uk",
+    "anarkali suit uk eid",
+    "sharara suit uk eid",
+    "gharara suit uk",
+    "eid clothes online uk",
+    "pakistani eid outfits uk",
     "eid dresses usa 2026",
-    "pakistani festive wear uk",
-    "eid outfit uk",
-    "luxury eid dresses",
+    "pakistani eid dresses usa",
+    "luxury eid dresses uk",
     "handcrafted eid dresses uk",
-    "eid dresses online uk",
+    "eid outfit ideas 2026",
+    "sage green eid dress uk",
+    "pastel eid dress uk",
+    "chiffon eid dress uk",
+    "velvet eid dress uk",
+    "eid party outfit uk",
+    "walima dress uk",
+    "mehndi outfit uk",
+    "made to order eid dress uk",
     "pakistani eid clothes uk",
   ],
   alternates: {
@@ -43,42 +57,47 @@ const eidFaqItems = [
   {
     question: "Where can I buy Pakistani Eid dresses in the UK for 2026?",
     answer:
-      "Aish is a UK-based luxury Pakistani fashion brand offering handcrafted Eid dresses including lehengas, embroidered ensembles and festive suits. All pieces ship to the UK with free delivery on orders over £300.",
+      "Aish is a UK-based luxury Pakistani fashion brand offering handcrafted Eid dresses — lehengas, anarkali suits, sharara sets, gharara and festive ensembles. All pieces are made to order with free UK delivery on orders over £300. We deliver to London, Birmingham, Manchester, Leeds, Bradford, Luton and all UK cities.",
   },
   {
-    question: "What are the most popular Pakistani outfits for Eid?",
+    question: "What Pakistani Eid outfit styles are trending in 2026?",
     answer:
-      "The most popular Pakistani Eid outfits are lehengas, gharara suits, embroidered pret sets and festive shalwar kameez. At Aish, our festive lehengas range from £265 to £640 and are all made to order with hand embroidery.",
+      "Trending Pakistani Eid outfits for 2026 include lehengas, anarkali suits, sharara sets, gharara and embroidered festive salwar kameez. Popular colours are sage green, dusty lilac, champagne gold, blush pink and jewel tones (emerald, sapphire, ruby). Cape-style dupattas, lightweight chiffon and organza fabrics are leading the 2026 Eid aesthetic.",
   },
   {
     question: "Can I get a Pakistani Eid dress delivered to the US?",
     answer:
-      "Yes. Aish delivers luxury Pakistani Eid dresses to the US with free shipping on orders over $300. Browse our festive and Eid collection for 2026.",
+      "Yes. Aish delivers luxury Pakistani Eid dresses to the US with free shipping on orders over $300. Popular US orders include lehengas, anarkali suits, sharara sets and festive salwar kameez — all made to order with custom sizing available via WhatsApp.",
   },
   {
     question: "How early should I order a Pakistani dress for Eid 2026?",
     answer:
-      "For Eid 2026, we recommend ordering at least 4–6 weeks in advance for Luxury Pret pieces. Heavily embellished festive lehengas require 6–8 weeks. Order now to ensure delivery before Eid.",
+      "With Eid 2026 on 30 March, order immediately. Luxury Pret pieces require 4–6 weeks. Heavily embellished lehengas, anarkali suits and sharara sets require 6–8 weeks. Contact us on WhatsApp +44 7500 547532 to confirm your lead time.",
   },
   {
     question: "What is the price range for Eid dresses at Aish?",
     answer:
-      "Aish Eid dresses start at £265 for festive pret pieces and go up to £640 for heavily embroidered lehengas. Bridal couture starts from £1,450. All prices include free UK shipping over £300.",
+      "Aish Eid dresses start at £265 for Luxury Pret festive pieces including anarkali suits and embroidered sets. Lehengas and sharara sets range from £265–£640. Bridal couture starts from £1,450. Free UK shipping on orders over £300 / US shipping on orders over $300.",
   },
   {
     question: "Are Aish Eid dresses made to measure?",
     answer:
-      "Yes. All Aish Eid dresses and festive wear are made to order with custom measurements. Contact us via WhatsApp on +44 7500 547532 to provide your measurements and discuss fabric and colour options.",
+      "Yes. All Aish Eid dresses — including lehengas, anarkali suits, sharara sets and gharara — are made to order with custom measurements. Contact via WhatsApp on +44 7500 547532 to provide measurements and choose colours.",
   },
   {
-    question: "What fabrics are used in Aish Eid dresses?",
+    question: "What fabrics are trending for Pakistani Eid dresses in 2026?",
     answer:
-      "Aish Eid dresses are crafted in premium fabrics including net, chiffon, organza, velvet and raw silk. All embellishments — zardozi, sequins, resham and beadwork — are hand-applied by skilled artisans.",
+      "For Eid 2026, trending fabrics include chiffon, organza, velvet and raw silk. Since Eid falls in late March, velvet and georgette pieces are ideal for cooler UK weather. All Aish pieces feature hand-applied zardozi, resham, sequins, mirror work and beadwork by skilled artisans.",
   },
   {
-    question: "Does Aish offer custom Eid dress orders?",
+    question: "Does Aish make anarkali suits, sharara sets and gharara for Eid?",
     answer:
-      "Yes. Aish accepts custom Eid dress orders for bespoke colours, sizes and embroidery designs. Contact via WhatsApp on +44 7500 547532 or our contact page to discuss your requirements.",
+      "Yes. Aish creates luxury anarkali suits, sharara sets, gharara and lehengas — all handcrafted with premium embroidery. Each piece is made to order with custom sizing. Contact via WhatsApp on +44 7500 547532 to order your Eid 2026 outfit.",
+  },
+  {
+    question: "Does Aish offer walima, mehndi and Eid party outfits?",
+    answer:
+      "Yes. Aish designs outfits for all Pakistani celebrations — Eid, walima, mehndi, baraat, engagement and formal occasions. Browse our bridal and festive collections or contact us for bespoke orders.",
   },
 ];
 

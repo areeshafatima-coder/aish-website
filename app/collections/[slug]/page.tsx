@@ -17,39 +17,62 @@ export async function generateStaticParams() {
 
 const collectionMeta: Record<string, { title: string; description: string; keywords: string[] }> = {
   festive: {
-    title: "Pakistani Eid & Festive Dresses UK 2026 — Lehengas & Embroidered Wear",
+    title: "Pakistani Eid & Festive Dresses UK 2026 — Lehengas, Anarkalis & Shararas | Aish",
     description:
-      "Shop luxury Pakistani festive & Eid dresses 2026 — handcrafted lehengas, embroidered ensembles & festive suits. UK & US delivery. Free shipping over £300.",
+      "Shop luxury Pakistani festive & Eid dresses 2026 — handcrafted lehengas, anarkali suits, sharara sets & embroidered ensembles. UK & US delivery. Free shipping over £300.",
     keywords: [
       "pakistani festive dresses uk",
       "eid dresses uk 2026",
       "eid lehenga uk",
-      "festive pakistani wear",
+      "anarkali suit uk eid",
+      "sharara suit uk",
+      "gharara suit uk",
+      "festive pakistani wear uk",
       "embroidered lehenga uk",
+      "eid clothes online uk",
+      "eid outfit ideas 2026",
     ],
   },
   "bridal-occasion": {
-    title: "Pakistani Bridal Lehengas & Occasion Wear UK — Luxury Couture | Aish",
+    title: "Pakistani Bridal Lehengas, Walima & Occasion Wear UK — Luxury Couture | Aish",
     description:
-      "Luxury Pakistani bridal lehengas and occasion wear. Handcrafted couture for walima, reception & baraat. Made to order — UK & US delivery.",
+      "Luxury Pakistani bridal lehengas and occasion wear for walima, baraat, mehndi & reception. Handcrafted couture made to order — UK & US delivery.",
     keywords: [
       "pakistani bridal lehenga uk",
       "bridal lehenga uk",
       "pakistani wedding dresses uk",
+      "walima dress uk",
+      "mehndi outfit uk",
+      "baraat dress uk",
       "couture bridal pakistan uk",
+      "pakistani occasion wear uk",
     ],
   },
   "luxury-pret": {
-    title: "Luxury Pakistani Pret Dresses UK — Ready to Order Eid & Festive Wear",
+    title: "Luxury Pakistani Pret Dresses UK 2026 — Eid, Festive & Occasion Wear | Aish",
     description:
-      "Shop luxury Pakistani pret dresses — ready to order in shorter lead times. Eid dresses, lehengas & embroidered sets. UK & US delivery. Free shipping over £300.",
-    keywords: ["luxury pret pakistan uk", "pakistani pret dresses uk", "ready to wear pakistan uk"],
+      "Shop luxury Pakistani pret dresses — anarkali suits, embroidered sets & festive wear. Shorter lead times for Eid 2026. UK & US delivery. Free shipping over £300.",
+    keywords: [
+      "luxury pret pakistan uk",
+      "pakistani pret dresses uk",
+      "ready to wear pakistan uk",
+      "anarkali pret uk",
+      "eid pret dresses uk",
+      "embroidered pret uk",
+    ],
   },
   formal: {
-    title: "Pakistani Formal Dresses UK — Luxury Embroidered Occasion Wear | Aish",
+    title: "Pakistani Formal Dresses UK — Velvet, Embroidered & Occasion Wear | Aish",
     description:
-      "Shop luxury Pakistani formal dresses — velvet, embroidered and occasion wear. Made to order. UK & US delivery. Free shipping over £300.",
-    keywords: ["pakistani formal dresses uk", "formal pakistani wear uk", "embroidered formal uk"],
+      "Shop luxury Pakistani formal dresses — velvet anarkalis, embroidered occasion wear and party dresses. Made to order. UK & US delivery. Free shipping over £300.",
+    keywords: [
+      "pakistani formal dresses uk",
+      "formal pakistani wear uk",
+      "velvet anarkali uk",
+      "embroidered formal uk",
+      "pakistani party dress uk",
+      "occasion wear pakistani uk",
+    ],
   },
 };
 

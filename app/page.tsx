@@ -9,42 +9,85 @@ import Newsletter from "@/components/home/Newsletter";
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aishofficial.shop";
 
 export const metadata = {
-  title: "Pakistani Eid Dresses UK 2026 — Luxury Lehengas & Festive Wear | Aish",
+  title: "Pakistani Eid Dresses UK 2026 — Lehengas, Anarkalis, Shararas & Festive Wear | Aish",
   description:
-    "Shop luxury Pakistani Eid dresses 2026 — handcrafted lehengas, gharara suits & festive wear. Designed in the UK. Free shipping over £300 / $300.",
+    "Shop luxury Pakistani Eid dresses 2026 — handcrafted lehengas, anarkali suits, sharara sets & gharara. Designed in the UK. Free shipping over £300 / $300.",
+  keywords: [
+    "eid dresses uk 2026",
+    "pakistani eid dresses uk",
+    "eid outfits uk 2026",
+    "eid collection 2026 uk",
+    "anarkali suit uk",
+    "sharara suit uk",
+    "gharara suit uk",
+    "eid lehenga uk",
+    "eid clothes online uk",
+    "luxury pakistani fashion uk",
+    "eid party outfit uk",
+    "walima dress uk",
+    "pakistani eid dresses usa",
+    "eid outfit ideas 2026",
+    "chiffon eid dress uk",
+    "velvet eid dress uk",
+    "made to order eid dress uk",
+  ],
   alternates: { canonical: baseUrl },
+  openGraph: {
+    title: "Pakistani Eid Dresses UK 2026 — Lehengas, Anarkalis & Shararas | Aish",
+    description:
+      "Luxury handcrafted Pakistani Eid dresses 2026 — lehengas, anarkali suits, sharara sets & festive wear. Designed in UK. Free shipping over £300 / $300.",
+    url: baseUrl,
+    siteName: "Aish",
+    type: "website",
+    locale: "en_GB",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pakistani Eid Dresses UK 2026 | Aish",
+    description: "Luxury lehengas, anarkalis, shararas & festive wear. UK & US delivery. Free shipping over £300.",
+  },
 };
 
 const faqItems = [
   {
-    question: "Where can I buy luxury Pakistani Eid dresses in the UK?",
+    question: "Where can I buy luxury Pakistani Eid dresses in the UK for 2026?",
     answer:
-      "Aish offers luxury handcrafted Pakistani Eid dresses in the UK — including lehengas, embroidered ensembles and festive suits. All pieces are made to order and delivered across the UK with free shipping on orders over £300.",
+      "Aish is a UK-based luxury Pakistani fashion brand offering handcrafted Eid dresses including lehengas, anarkali suits, sharara sets and gharara. All pieces are made to order and delivered across the UK — London, Birmingham, Manchester, Leeds — with free shipping on orders over £300.",
+  },
+  {
+    question: "What are the most popular Pakistani Eid outfit styles for 2026?",
+    answer:
+      "The most popular Pakistani Eid outfits for 2026 are lehengas, anarkali suits, sharara sets, gharara suits and embroidered festive ensembles. Trending colours include sage green, dusty lilac, champagne gold, blush pink and jewel tones like emerald and sapphire. At Aish, all pieces feature hand-applied zardozi, resham and sequin embroidery on premium chiffon, organza and velvet fabrics.",
   },
   {
     question: "Can I order Pakistani Eid outfits online for delivery to the US?",
     answer:
-      "Yes. Aish ships luxury Pakistani Eid outfits to the US with free shipping on orders over $300. Browse our festive and luxury pret collections for Eid 2026.",
+      "Yes. Aish ships luxury Pakistani Eid dresses to the US with free shipping on orders over $300. Popular US orders include lehengas, anarkali suits, sharara sets and festive salwar kameez — all made to order with custom sizing.",
   },
   {
-    question: "How long does it take to receive a made-to-order Pakistani dress?",
+    question: "How long before Eid should I order a Pakistani dress?",
     answer:
-      "Aish made-to-order pieces take 3–10 weeks depending on embellishment complexity. Luxury Pret pieces are available on shorter lead times of 4–6 weeks. Order now to receive in time for Eid 2026.",
+      "Order at least 4–6 weeks before Eid for Luxury Pret pieces. Heavily embellished lehengas, anarkali suits and sharara sets require 6–8 weeks. With Eid 2026 on 30 March, order now to guarantee delivery in time.",
   },
   {
     question: "What is the price of Pakistani Eid dresses at Aish?",
     answer:
-      "Aish Eid dresses start from £265 for Luxury Pret festive pieces, ranging up to £640 for heavily embroidered lehengas. Bridal couture starts at £1,450. Free UK shipping on orders over £300.",
+      "Aish Eid dresses start from £265 for Luxury Pret festive pieces, ranging up to £640 for heavily embroidered lehengas and anarkali suits. Bridal couture and sharara sets start at £1,450. Free UK shipping on orders over £300.",
   },
   {
-    question: "Does Aish make custom Pakistani dresses?",
+    question: "Does Aish make custom Pakistani dresses for Eid?",
     answer:
-      "Yes. Aish creates custom-made Pakistani dresses for Eid, weddings and special occasions. Contact via WhatsApp on +44 7500 547532 to discuss your custom requirements and sizing.",
+      "Yes. Aish creates bespoke Pakistani dresses for Eid, walima, mehndi and special occasions — custom colours, sizes and embroidery designs. Contact via WhatsApp on +44 7500 547532 to discuss your requirements.",
   },
   {
-    question: "What Pakistani outfits are best for Eid 2026?",
+    question: "What fabrics are Aish Eid dresses made from?",
     answer:
-      "For Eid 2026, popular Pakistani outfit choices include lehengas, embroidered ensembles and festive pret sets. Aish offers a curated festive collection with hand-embroidered pieces in net, chiffon and organza fabrics — perfect for Eid prayers and celebrations.",
+      "Aish Eid dresses are crafted in premium fabrics including chiffon, organza, velvet, net and raw silk — ideal for both UK spring weather and indoor celebrations. All embellishments including zardozi, resham, sequins and mirror work are hand-applied by skilled artisans.",
+  },
+  {
+    question: "Does Aish deliver Pakistani Eid dresses to London, Birmingham and Manchester?",
+    answer:
+      "Yes. Aish delivers luxury Pakistani Eid dresses across the UK including London, Birmingham, Manchester, Leeds, Bradford, Luton, Slough and all other cities. Free UK shipping on orders over £300.",
   },
 ];
 
