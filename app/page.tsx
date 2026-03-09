@@ -5,6 +5,7 @@ import ProductCard from "@/components/product/ProductCard";
 import CollectionGrid from "@/components/home/CollectionGrid";
 import TrustStrip from "@/components/home/TrustStrip";
 import Newsletter from "@/components/home/Newsletter";
+import HowItWorks from "@/components/home/HowItWorks";
 
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aishofficial.shop";
 
@@ -179,6 +180,8 @@ export default function HomePage() {
       </section>
 
       <TrustStrip />
+
+      <HowItWorks />
 
       {/* FAQ Section — AEO: powers Google "People Also Ask" & featured snippets */}
       <section className="section section-faq" aria-labelledby="faq-heading">

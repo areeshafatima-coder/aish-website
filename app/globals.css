@@ -843,3 +843,79 @@ button {
 .eid-intro p { color: var(--color-text-muted); line-height: 1.75; margin: 0 0 1rem; }
 .eid-intro a { color: var(--color-gold); text-decoration: underline; text-underline-offset: 3px; }
 .eid-about-section { background: var(--color-bg-alt); padding: 3.5rem 0; }
+
+/* ===== WhatsApp Float Button ===== */
+.whatsapp-float {
+  position: fixed;
+  bottom: 1.75rem;
+  right: 1.75rem;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #25d366;
+  color: #fff;
+  padding: 0.7rem 1.1rem;
+  border-radius: 50px;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  box-shadow: 0 4px 18px rgba(37, 211, 102, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.whatsapp-float:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(37, 211, 102, 0.45);
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .whatsapp-float span { display: none; }
+  .whatsapp-float { padding: 0.8rem; border-radius: 50%; }
+}
+
+/* ===== How It Works Section ===== */
+.how-it-works { background: var(--color-bg-alt); }
+.how-it-works__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  margin: 3rem 0 2.5rem;
+}
+@media (max-width: 768px) {
+  .how-it-works__grid { grid-template-columns: 1fr; gap: 2rem; }
+}
+.how-it-works__step {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 2rem;
+  background: var(--color-cream);
+  border: 1px solid var(--color-border);
+  position: relative;
+}
+.how-it-works__number {
+  font-family: var(--font-serif);
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--color-gold);
+  line-height: 1;
+  opacity: 0.7;
+}
+.how-it-works__title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: var(--color-text);
+  margin: 0;
+}
+.how-it-works__desc {
+  font-size: 0.92rem;
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* ===== PromoBar rotating message ===== */
+.promo-bar__message { margin: 0; }
