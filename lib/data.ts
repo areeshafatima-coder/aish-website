@@ -295,9 +295,24 @@ export const collections: Collection[] = [
 ];
 
 export const heroSlides: HeroSlide[] = [
-  { image: `${ASSETS}/banner-home-festive-trio.png`, tag: "Festive", title: "Aish.official", subtitle: "Slate blue, blush & mint. Handcrafted for you." },
-  { image: `${ASSETS}/banner-bridal-maroon.png`, tag: "Bridal & Occasion", title: "Aish.official", subtitle: "Maroon & gold. Timeless elegance." },
-  { image: `${ASSETS}/banner-collection-slate-blue.png`, tag: "Collections", title: "Aish.official", subtitle: "Modern elegance on every step." },
+  {
+    image: `${ASSETS}/aish-banner-2-hq.png`,
+    tag: "Bridal & Occasion",
+    title: "Made for You.\nOnly You.",
+    subtitle: "Every piece handcrafted to your measurements. Never duplicated.",
+  },
+  {
+    image: `${ASSETS}/aish-banner-3-hq.png`,
+    tag: "Bridal Couture",
+    title: "A Dress as\nUnique as You.",
+    subtitle: "Nikkah. Walima. Rukhsati. Every occasion, crafted with intention.",
+  },
+  {
+    image: `${ASSETS}/aish-banner-couple-maroon.png`,
+    tag: "Wedding Occasion",
+    title: "Your Story.\nBeautifully Told.",
+    subtitle: "Bespoke bridal wear — designed around your vision, made once, never repeated.",
+  },
 ];
 
 export function getProductBySlug(slug: string): Product | undefined {

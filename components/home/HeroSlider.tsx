@@ -31,15 +31,14 @@ export default function HeroSlider({ slides }: { slides: HeroSlide[] }) {
                 alt=""
                 fill
                 priority={i === 0}
-                quality={95}
-                unoptimized={slide.image.startsWith("/assets/")}
+                quality={90}
                 sizes="100vw"
                 className="hero-slide__image"
               />
             </div>
             <div className="hero-content hero-content--left">
               <span className="hero-tag">{slide.tag}</span>
-              <h1>{slide.title}</h1>
+              <h1 style={{ whiteSpace: "pre-line" }}>{slide.title}</h1>
               <p>{slide.subtitle}</p>
               <Link href="/new-arrivals" className="btn btn-primary">
                 Shop Now
