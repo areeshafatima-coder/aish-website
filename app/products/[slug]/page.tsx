@@ -53,7 +53,9 @@ export default async function ProductPage({ params }: PageProps) {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.title,
-    image: product.images,
+    image: product.images.map((img) =>
+      img.startsWith("http") ? img : `${baseUrl}${img}`
+    ),
     description: product.description.join(" "),
     brand: {
       "@type": "Brand",
@@ -64,7 +66,14 @@ export default async function ProductPage({ params }: PageProps) {
       price: product.price.replace(/[^0-9.]/g, ""),
       priceCurrency: "GBP",
       url: productUrl,
-      availability: "https://schema.org/PreOrder",
+      availability: "https://schema.org/InStock",
+      seller: {
+        "@type": "Organization",
+        name: "Aish",
+      },
+      priceValidUntil: new Date(new Date().setFullYear(new Date().getFullYear() + 1))
+        .toISOString()
+        .split("T")[0],
     },
   };
 
