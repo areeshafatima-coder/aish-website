@@ -1,8 +1,34 @@
 import Link from "next/link";
 
-export const metadata = {
-  title: "Unstitched",
-  description: "Unstitched Pakistani fabrics and designs. Custom stitching available. UK & US.",
+import type { Metadata } from "next";
+
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aishofficial.shop";
+
+export const metadata: Metadata = {
+  title: "Unstitched Pakistani Fabrics & Designs UK — Custom Stitching | Aish",
+  description:
+    "Shop unstitched Pakistani fabrics and designs from Aish. Premium net, chiffon, organza and velvet. Custom stitching available. UK & US delivery.",
+  keywords: [
+    "unstitched pakistani fabric uk",
+    "unstitched pakistani designs uk",
+    "pakistani fabric uk",
+    "unstitched lehenga fabric uk",
+    "custom stitching pakistani uk",
+  ],
+  alternates: { canonical: `${baseUrl}/unstitched` },
+  openGraph: {
+    title: "Unstitched Pakistani Fabrics & Designs UK | Aish",
+    description:
+      "Premium unstitched Pakistani fabrics — net, chiffon, organza, velvet. Custom stitching available. UK & US delivery.",
+    url: `${baseUrl}/unstitched`,
+    siteName: "Aish",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Unstitched Pakistani Fabrics UK | Aish",
+    description: "Premium unstitched Pakistani fabrics. Custom stitching available. UK & US delivery.",
+  },
 };
 
 export default function UnstitchedPage() {

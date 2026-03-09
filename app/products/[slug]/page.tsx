@@ -16,9 +16,25 @@ export async function generateMetadata({ params }: PageProps) {
   const { slug } = await params;
   const product = getProductBySlug(slug);
   if (!product) return { title: "Product | Aish" };
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aishofficial.shop";
+  const description = product.description[0]?.slice(0, 160) ?? undefined;
   return {
-    title: `${product.title} | Aish`,
-    description: product.description[0]?.slice(0, 160) ?? undefined,
+    title: `${product.title} | Aish — Luxury Pakistani Fashion UK`,
+    description,
+    alternates: { canonical: `${baseUrl}/products/${slug}` },
+    openGraph: {
+      title: `${product.title} | Aish`,
+      description,
+      url: `${baseUrl}/products/${slug}`,
+      siteName: "Aish",
+      type: "website",
+      images: product.images[0] ? [{ url: product.images[0], alt: product.title }] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${product.title} | Aish`,
+      description,
+    },
   };
 }
 
@@ -30,7 +46,7 @@ export default async function ProductPage({ params }: PageProps) {
   const whatsappUrl = `https://wa.me/447500547532?text=${encodeURIComponent(
     product.whatsappText
   )}`;
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aish.com";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aishofficial.shop";
   const productUrl = `${baseUrl}/products/${slug}`;
 
   const productLd = {

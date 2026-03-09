@@ -1,8 +1,34 @@
 import Link from "next/link";
 
-export const metadata = {
-  title: "Ready to Wear",
-  description: "Luxury ready-to-wear Pakistani fashion. Curated pieces for UK & US.",
+import type { Metadata } from "next";
+
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aishofficial.shop";
+
+export const metadata: Metadata = {
+  title: "Ready-to-Wear Pakistani Dresses UK — Luxury Fashion | Aish",
+  description:
+    "Shop luxury ready-to-wear Pakistani dresses from Aish — handcrafted lehengas, festive wear and occasion outfits. Available now for UK & US delivery.",
+  keywords: [
+    "ready to wear pakistani dresses uk",
+    "pakistani ready to wear uk",
+    "luxury pakistani rtw uk",
+    "ready to wear lehenga uk",
+    "pakistani occasion wear uk",
+  ],
+  alternates: { canonical: `${baseUrl}/ready-to-wear` },
+  openGraph: {
+    title: "Ready-to-Wear Pakistani Dresses UK | Aish",
+    description:
+      "Luxury ready-to-wear Pakistani dresses — handcrafted lehengas, festive wear and occasion outfits. UK & US delivery.",
+    url: `${baseUrl}/ready-to-wear`,
+    siteName: "Aish",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ready-to-Wear Pakistani Dresses UK | Aish",
+    description: "Luxury handcrafted Pakistani dresses ready to wear. UK & US delivery.",
+  },
 };
 
 export default function ReadyToWearPage() {

@@ -59,17 +59,27 @@ export async function generateMetadata({
   const { slug } = await params;
   const collection = getCollectionBySlug(slug);
   if (!collection) return { title: "Collection" };
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aishofficial.shop";
   const meta = collectionMeta[slug];
-  if (meta) {
-    return {
-      title: meta.title,
-      description: meta.description,
-      keywords: meta.keywords,
-    };
-  }
+  const title = meta?.title ?? `${collection.name} — Luxury Pakistani Fashion UK & US | Aish`;
+  const description = meta?.description ?? `Shop ${collection.name} — luxury handcrafted Pakistani fashion. Made to order. UK & US delivery. Free shipping over £300.`;
   return {
-    title: `${collection.name} — Luxury Pakistani Fashion UK & US | Aish`,
-    description: `Shop ${collection.name} — luxury handcrafted Pakistani fashion. Made to order. UK & US delivery. Free shipping over £300.`,
+    title,
+    description,
+    keywords: meta?.keywords,
+    alternates: { canonical: `${baseUrl}/collections/${slug}` },
+    openGraph: {
+      title,
+      description,
+      url: `${baseUrl}/collections/${slug}`,
+      siteName: "Aish",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   };
 }
 

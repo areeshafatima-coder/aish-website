@@ -18,6 +18,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/collections/formal",
     "/about",
     "/contact",
+    "/unstitched",
+    "/ready-to-wear",
   ];
 
   const productRoutes = getAllProductSlugs().map((slug) => `/products/${slug}`);

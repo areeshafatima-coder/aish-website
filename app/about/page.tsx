@@ -11,7 +11,28 @@ export const metadata: Metadata = {
   title: "About Aish — Luxury Pakistani Fashion Brand UK | Our Story",
   description:
     "Aish is a UK-based luxury Pakistani fashion brand creating handcrafted Eid dresses, lehengas, festive wear and bridal couture. Made to order with premium fabrics. Serving UK & US.",
+  keywords: [
+    "about aish pakistani fashion",
+    "luxury pakistani fashion brand uk",
+    "handcrafted pakistani dresses uk",
+    "pakistani fashion designer uk",
+    "made to order pakistani fashion uk",
+  ],
   alternates: { canonical: `${baseUrl}/about` },
+  openGraph: {
+    title: "About Aish — Luxury Pakistani Fashion Brand UK | Our Story",
+    description:
+      "Aish is a UK-based luxury Pakistani fashion brand. Handcrafted Eid dresses, lehengas, festive wear and bridal couture. Made to order. UK & US delivery.",
+    url: `${baseUrl}/about`,
+    siteName: "Aish",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Aish — Luxury Pakistani Fashion Brand UK",
+    description:
+      "Handcrafted Pakistani Eid dresses, lehengas & bridal couture. UK-based luxury fashion brand. Made to order.",
+  },
 };
 
 export default function AboutPage() {
